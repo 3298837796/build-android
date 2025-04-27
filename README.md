@@ -1,3 +1,10 @@
-# bpi-build
+# 适配rtd1296 bpi-w2 android7 编译镜像
 
-  This is a docker system environment which is run ubuntu 16.04, for bpi android 7, android 8 and android 9 source code compile.
+  基于 ubuntu 16.04, 修改适配bpi-w2 android7 源码的编译
+
+# 使用方法
+  电脑安装docker desktop 、git
+  
+  执行build.sh 编译镜像
+  
+  执行run.sh 运行容器
