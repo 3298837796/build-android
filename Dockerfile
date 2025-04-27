@@ -33,6 +33,22 @@ RUN	apt-get update && apt-get install -y \
 	gawk \
 	busybox \
 	openssh-server \
+	apt-utils \
+	mercurial \
+	device-tree-compiler \
+	pkg-config \
+	libusb-1.0-0-dev \
+	python-software-properties \
+	software-properties-common \
+	libncurses5-dev \
+	libswitch-perl \
+	openssl \
+	libssl-dev \
+	kmod\
+	sudo\
+	gettext\
+	subversion\
+	libxml-parser-perl\
 	vim
 
 ADD	dtc /usr/bin/dtc
